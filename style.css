@@ -1,0 +1,19 @@
+.citizen-card-1{
+    border: 0rem !important;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.citizen-button{
+    border-radius: 2rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+
+.citizen-search{
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15) !important;
+    border: 0rem;
+    padding: 1rem 1.5rem;
+}
