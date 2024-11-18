@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Submitted Data</title>
+</head>
+<body>
+    <h1>Submitted Data</h1>
+    {% if data %}
+        <ul>
+            {% for item in data %}
+                <li>{{ item.strip() }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No data has been submitted yet.</p>
+    {% endif %}
+    <a href="/">Go Back</a>
+</body>
+</html>
