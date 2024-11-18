@@ -64,7 +64,7 @@ def add_citizen():
     data.append(new_record)
     write_data(data)
 
-    return jsonify(new_record), 201
+    return jsonify({"message": "Citizen added successfully"},new_record), 201
 
 # Route: Delete a citizen by ID
 @app.route('/api/citizens/<int:citizen_id>', methods=['DELETE'])
